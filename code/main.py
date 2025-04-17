@@ -38,7 +38,7 @@ def get_comaand():
         print("nknown error occurred")
 
 
-api_key = "Your API KEY"
+Api_key = "Your API KEY"
 search_engine_id = "Your Engine ID"
 
 def google_first_result(query, api_key, cse_id):
@@ -77,5 +77,5 @@ def google_first_result(query, api_key, cse_id):
     SpeakText(f"{long_snippet}")
 
 
-google_first_result(query=get_comaand(),api_key=api_key,cse_id=search_engine_id)
+google_first_result(query=get_comaand(),api_key=Api_key,cse_id=search_engine_id)
 
